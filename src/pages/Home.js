@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <section className="p-2 md:p-10">
-      <Header title={"Welcome Miss Beauty Mujidat"} />
+      <Header title={"Welcome Mr Ajayi"} />
       <div className="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
         {cardDetails.map((card, index) => (
           <Card key={index} title={card.title} number={card.number} color={card.color} />
