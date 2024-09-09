@@ -1,10 +1,9 @@
 // src/pages/Home.js
 import React from 'react';
-import Header from '../components/Home/Header';
-import Card from '../components/Home/Card';
-import AcademicSemesterCards from '../components/Home/AcademicSemester';
-import ScheduleSection from '../components/Home/ScheduleCard';
-
+import Header from '../components/home/Header';
+import Card from '../components/common/Card';
+import AcademicSemesterCards from '../components/home/AcademicSemester';
+import ScheduleSection from '../components/home/ScheduleCard';
 
 const Home = () => {
   const cardDetails = [
@@ -16,7 +15,7 @@ const Home = () => {
 
   return (
     <section className="p-2 md:p-10">
-      <Header />
+      <Header title={"Welcome Miss Beauty Mujidat"} />
       <div className="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
         {cardDetails.map((card, index) => (
           <Card key={index} title={card.title} number={card.number} color={card.color} />

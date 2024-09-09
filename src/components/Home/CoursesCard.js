@@ -6,7 +6,7 @@ const CourseCard = ({ title, courseCount, courses }) => {
     <div className="p-6 mb-6 bg-white border-2 rounded-lg shadow-lg">
       <div className="flex items-center justify-start gap-6 mb-4">
         <h2 className="text-xl font-bold text-gray-700">{title}</h2>
-        <div className="px-3 py-1 mr-2 text-sm text-gray-600 border border-gray-300 rounded-full">
+        <div className="block px-3 py-1 mr-2 text-sm border border-gray-300 rounded-full txt-gray-600 lg:text-2xl lg:hidden">
           {courseCount} Courses
         </div>
       </div>

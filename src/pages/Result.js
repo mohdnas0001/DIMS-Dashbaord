@@ -1,0 +1,37 @@
+// src/pages/Course.js
+import React from 'react';
+import Header from '../components/home/Header';
+import Card from '../components/common/Card';
+import ResultTable from '../components/result/ResultTable';
+import { results, semesters } from '../config/config';
+import ResultAnalysis from '../components/result/ResultAnalysis';
+
+
+const Result = () =>
+{
+ 
+  
+  const cardDetails = [
+      { title: 'Examination courses', number: '11', color: '#502369' },
+      { title: 'Current Cgpa', number: '4.55', color: '#DFC7EC' , textColor : '[#502369]' },
+    { title: 'Outstanding courses', number: '3', color: '#502369'  },
+  ];
+
+  return (
+    <section className="p-2 md:p-10">
+      <Header title={"Results"} />
+      <div className="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+        {cardDetails.map((card, index) => (
+          <Card key={index} title={card.title} number={card.number} color={card.color} textColor={card.textColor}  />
+        ))}
+      </div>
+      <ResultTable tableTitle='400 level first semester result' semesters={semesters} results={results} />
+      <ResultTable tableTitle='Outstanding courses' semesters={semesters} results={results} />
+      <ResultAnalysis/>
+
+      
+    </section>
+  );
+};
+
+export default Result;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ProfileDropdown = () => {
+const ProfilePopover = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -10,9 +10,10 @@ const ProfileDropdown = () => {
   return (
     <div className="relative inline-block text-left">
       {/* Profile Picture and Dropdown Icon */}
-      <div className="flex items-center cursor-pointer" onClick={toggleDropdown}>
+          <div className="flex items-center cursor-pointer" onClick={toggleDropdown}>
+        
         <img
-          src="https://via.placeholder.com/40"
+          src="https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png"
           alt="Profile"
           className="w-10 h-10 rounded-full"
         />
@@ -64,4 +65,4 @@ const ProfileDropdown = () => {
   );
 };
 
-export default ProfileDropdown;
+export default ProfilePopover;
