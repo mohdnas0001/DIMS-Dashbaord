@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/home/Header'; // Correct import
 import Card from '../components/common/Card';
 import AcademicSemesterCards from '../components/home/AcademicSemester';
 import ScheduleSection from '../components/home/ScheduleCard';
@@ -23,6 +22,14 @@ const Home = () => {
       <AcademicSemesterCards />
       <ScheduleSection/>
     </section>
+  );
+};
+
+const Header = ({ title }) => {
+  return (
+    <div>
+      <h1 className="text-3xl font-semibold text-[#0B0B0B]">{title}</h1>
+    </div>
   );
 };
 
