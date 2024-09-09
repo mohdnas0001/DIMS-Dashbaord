@@ -1,6 +1,5 @@
-// src/pages/Home.js
 import React from 'react';
-import Header from '../components/home/Header';
+import Header from '../components/home/Header'; // Correct import
 import Card from '../components/common/Card';
 import AcademicSemesterCards from '../components/home/AcademicSemester';
 import ScheduleSection from '../components/home/ScheduleCard';
@@ -23,7 +22,6 @@ const Home = () => {
       </div>
       <AcademicSemesterCards />
       <ScheduleSection/>
-
     </section>
   );
 };
