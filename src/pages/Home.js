@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from 'components/common/Card';
+import Card from 'components/common/card';
 import AcademicSemesterCards from '../components/home/academic-semester';
 // import { ScheduleSection } from '../components/home/ScheduleCard';
 
