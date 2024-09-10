@@ -1,7 +1,7 @@
 // src/pages/Course.js
 import React from 'react';
-import Card from '../components/common/Card';
-import CourseTable from '../components/common/CourseTable';
+import Card from 'components/common/Card';
+import CourseTable from 'components/common/course-table';
 
 
 const Course = () =>

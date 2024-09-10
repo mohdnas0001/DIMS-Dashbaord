@@ -1,9 +1,9 @@
 // src/pages/Course.js
 import React from 'react';
-import Card from '../components/common/Card';
-import ResultTable from '../components/result/ResultTable';
+import Card from 'components/common/Card';
+import ResultTable from 'components/result/result-table';
 import { results, semesters } from '../config/config';
-import ResultAnalysis from '../components/result/ResultAnalysis';
+import ResultAnalysis from 'components/result/result-analysis';
 
 
 const Result = () =>

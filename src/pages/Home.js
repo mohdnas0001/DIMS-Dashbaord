@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from '../components/common/Card';
-import { AcademicSemesterCards } from '../components/home/AcademicSemester';
-import { ScheduleSection } from '../components/home/ScheduleCard';
+import Card from 'components/common/Card';
+import AcademicSemesterCards from '../components/home/academic-semester';
+// import { ScheduleSection } from '../components/home/ScheduleCard';
 
 const Home = () => {
   const cardDetails = [
@@ -20,7 +20,7 @@ const Home = () => {
         ))}
       </div>
       <AcademicSemesterCards />
-      <ScheduleSection/>
+      {/* <ScheduleSection/> */}
     </section>
   );
 };

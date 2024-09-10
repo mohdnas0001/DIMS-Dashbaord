@@ -1,6 +1,6 @@
-// src/components/Home/AcademicSemesterCards.js
 import React from 'react';
-import ProgressCard from '../common/CircularProgressBar';
+import ProgressCard from 'components/common/circular-progressbar';
+
 
 const AcademicSemesterCards = () => {
   const academicProgress = [

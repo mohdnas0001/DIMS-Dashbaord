@@ -1,7 +1,5 @@
-// src/components/Home/ScheduleSection.js
 import React from 'react';
-import CourseCard from './CoursesCard';
-
+import CourseCard from '../course-card';
 const ScheduleSection = () => {
   const courses = [
     {
