@@ -1,6 +1,6 @@
 // src/pages/Course.js
 import React from 'react';
-import Card from 'components/common/Card';
+import Card from 'components/common/card';
 import ResultTable from 'components/result/result-table';
 import { results, semesters } from '../config/config';
 import ResultAnalysis from 'components/result/result-analysis';
