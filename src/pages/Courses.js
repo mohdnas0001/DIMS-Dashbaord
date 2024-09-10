@@ -1,6 +1,5 @@
 // src/pages/Course.js
 import React from 'react';
-import Header from '../components/home/Header';
 import Card from '../components/common/Card';
 import CourseTable from '../components/common/CourseTable';
 
@@ -52,3 +51,12 @@ const Course = () =>
 };
 
 export default Course;
+
+
+const Header = ({ title }) => {
+  return (
+    <div>
+      <h1 className="text-3xl font-semibold text-[#0B0B0B]">{title}</h1>
+    </div>
+  );
+};
