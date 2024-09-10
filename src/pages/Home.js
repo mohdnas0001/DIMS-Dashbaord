@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../components/common/Card';
-import { AcademicSemesterCards }  from '../components/home/AcademicSemester';
-import { ScheduleSection } from '../components/home/ScheduleCard';
+import AcademicSemesterCards from '../components/home/AcademicSemester';
+import  ScheduleSection  from '../components/home/ScheduleCard';
 
 const Home = () => {
   const cardDetails = [
