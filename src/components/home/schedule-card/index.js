@@ -1,5 +1,6 @@
 import React from 'react';
 import CourseCard from '../course-card';
+
 const ScheduleSection = () => {
   const courses = [
     {
