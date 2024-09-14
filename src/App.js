@@ -14,7 +14,7 @@ import ManageUsers from './pages/AdminUsers';
 
 const App = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-  const [role, setRole] = useState('student'); // Example role, could be dynamically fetched
+  const [role, setRole] = useState('admin'); // Example role, could be dynamically fetched
 
   const toggleSidebar = () => {
     setIsSidebarVisible(!isSidebarVisible);
@@ -60,11 +60,11 @@ const App = () => {
               )}
 
               {/* Routes for faculty */}
-              {role === 'faculty' && (
+              {role === 'lecturer' && (
                 <>
-                  <Route path="/faculty/home" element={<Course />} />
-                  <Route path="/faculty/courses" element={<ResourcesPage />} />
-                  <Route path="/faculty/performance" element={<EventNewsPage />} />
+                  <Route path="/lecturer/home" element={<Course />} />
+                  <Route path="/lecturer/courses" element={<ResourcesPage />} />
+                  <Route path="/lecturer/performance" element={<EventNewsPage />} />
                 </>
               )}
             </Routes>
