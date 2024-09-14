@@ -1,10 +1,17 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { tabs } from '../config/config';
+import { studentTabs, adminTabs, facultyTabs } from '../config/config'; // Importing the tabs from config
 
-const Sidebar = ({ isMinimized, isSidebarVisible, toggleSidebar }) => {
+const Sidebar = ({ isMinimized, isSidebarVisible, toggleSidebar, role }) => {
   const [isSidebarMinimized, setIsSidebarMinimized] = useState(isMinimized);
   const location = useLocation();
+
+  // Select tabs based on the role
+  const tabs = role === 'student' ? studentTabs :
+               role === 'admin' ? adminTabs : facultyTabs;
+
+  // Conditionally set background color based on role
+  const backgroundColor = role === 'admin' || role === 'faculty' ? '#00659F' : '#502369';
 
   const handleMinimize = () => {
     setIsSidebarMinimized(true);
@@ -23,7 +30,8 @@ const Sidebar = ({ isMinimized, isSidebarVisible, toggleSidebar }) => {
         />
       )}
       <div
-        className={`h-screen bg-[#502369] text-white ${isSidebarMinimized ? 'w-20' : 'w-64'} transition-width duration-200 flex flex-col items-center ${isSidebarVisible ? 'fixed z-50' : 'hidden'} md:relative md:block`}
+        className={`h-screen text-white ${isSidebarMinimized ? 'w-20' : 'w-64'} transition-width duration-200 flex flex-col items-center ${isSidebarVisible ? 'fixed z-50' : 'hidden'} md:relative md:block`}
+        style={{ backgroundColor }} // Apply the dynamic background color here
       >
         <div className="flex items-center justify-between w-full p-4">
           <img

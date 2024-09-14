@@ -1,48 +1,60 @@
-export const tabs = [
+export const studentTabs = [
     { 
       name: 'Dashboard', 
       icon: '/images/navbar/dashboard.svg', 
       activeIcon: '/images/navbar/active-dashboard.svg', 
-      path: '/' 
+      path: '/student/home' 
     },
     { 
       name: 'Courses', 
       icon: '/images/navbar/course.svg', 
       activeIcon: '/images/navbar/course.svg', 
-      path: '/course' 
+      path: '/student/course' 
     },
     { 
       name: 'Resources', 
       icon: '/images/navbar/faculty.svg', 
       activeIcon: '/images/navbar/active-faculty.svg', 
-      path: '/resources' 
+      path: '/student/resources' 
     },
     { 
       name: 'Result', 
       icon: '/images/navbar/result.svg', 
       activeIcon: '/images/navbar/active-result.svg', 
-      path: '/result' 
+      path: '/student/result' 
     },
     { 
       name: 'Faculty', 
       icon: '/images/navbar/faculty.svg', 
-      activeIcon: '/images/navbar/active-faculty.svg', 
-      path: '/faculty' 
+      activeIcon: '/images/navbar/active-faculty.svg',
+      path: '/student/faculty' 
     },
     { 
       name: 'Events & News', 
       icon: '/images/navbar/events-news.svg', 
       activeIcon: '/images/navbar/active-events-news.svg', 
-      path: '/events-news' 
+      path: '/student/events-news' 
     },
     { 
       name: 'Notification', 
       icon: '/images/navbar/notifications.svg', 
       activeIcon: '/images/navbar/active-notifications.svg', 
-      path: '/notification' 
+      path: '/student/notification' 
     },
   ];
  
+
+  export const adminTabs = [
+    { name: "Dashboard", path: "/admin/home", icon: "/images/icons/home.svg", activeIcon: "/images/icons/home-active.svg" },
+    { name: "Manage Users", path: "/admin/users", icon: "/images/icons/users.svg", activeIcon: "/images/icons/users-active.svg" },
+    { name: "Reports", path: "/admin/reports", icon: "/images/icons/reports.svg", activeIcon: "/images/icons/reports-active.svg" },
+  ];
+  
+  export const facultyTabs = [
+    { name: "Dashboard", path: "/faculty/home", icon: "/images/icons/home.svg", activeIcon: "/images/icons/home-active.svg" },
+    { name: "Manage Courses", path: "/faculty/courses", icon: "/images/icons/courses.svg", activeIcon: "/images/icons/courses-active.svg" },
+    { name: "Student Performance", path: "/faculty/performance", icon: "/images/icons/performance.svg", activeIcon: "/images/icons/performance-active.svg" },
+  ];
   
 
   export const semesters = [
