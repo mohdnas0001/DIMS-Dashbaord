@@ -4,10 +4,10 @@ function EventNews() {
     const [dept, setDept] = useState(null);
 
     const courses = [
-        {Department: 'Computer science', summary: 'An event to share your product ideas to investors and win a prize and get recognition form experienced individuals.', image: process.env.PUBLIC_URL + 'images/imageRep.jpg', date: '27/09/2024'},
-        {Department: 'Computer science', summary: 'An event to share your product ideas to investors and win a prize and get recognition form experienced individuals.', image: process.env.PUBLIC_URL + 'images/imageRep.jpg', date: '27/09/2024'},
-        {Department: 'Computer science', summary: 'An event to share your product ideas to investors and win a prize and get recognition form experienced individuals.', image: process.env.PUBLIC_URL + 'images/imageRep.jpg', date: '27/09/2024'},
-        {Department: 'Computer science', summary: 'An event to share your product ideas to investors and win a prize and get recognition form experienced individuals.', image: process.env.PUBLIC_URL + 'images/imageRep.jpg', date: '27/09/2024'},
+        {Department: 'Computer science', summary: 'An event to share your product ideas to investors and win a prize and get recognition form experienced individuals.', image: process.env.PUBLIC_URL + '/images/imageRep.jpg', date: '27/09/2024'},
+        {Department: 'Computer science', summary: 'An event to share your product ideas to investors and win a prize and get recognition form experienced individuals.', image: process.env.PUBLIC_URL + '/images/imageRep.jpg', date: '27/09/2024'},
+        {Department: 'Computer science', summary: 'An event to share your product ideas to investors and win a prize and get recognition form experienced individuals.', image: process.env.PUBLIC_URL + '/images/imageRep.jpg', date: '27/09/2024'},
+        {Department: 'Computer science', summary: 'An event to share your product ideas to investors and win a prize and get recognition form experienced individuals.', image: process.env.PUBLIC_URL + '/images/imageRep.jpg', date: '27/09/2024'},
     ]
 
     const courseDetails = [
@@ -49,16 +49,16 @@ The department also shares a library/research laboratory which accommodates both
                 <div className="flex flex-col w-[100%] h-fit gap-y-[5%]">
                     <div className="w-[100%] flex flex-row flex-wrap h-fit gap-x-[2%]">
                         {courses.map((course)=>(
-                            <div className="relative w-[32%] aspect-[1/1.3] flex flex-col justify-end max-[1280px]:w-[48%] max-[1280px]:aspect-[1/1.5]">
+                            <div className="relative w-[32%] aspect-[1/1.3] flex flex-col justify-end max-[640px]:w-[98%] max-[1280px]:w-[48%] max-[1280px]:aspect-[1/1.5]">
                                 <div style={{ background: `url(${course.image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top-center' }} className="w-[92%] h-[50%] max-[1024px]:bottom-[43%] absolute left-[5%] bottom-[40%] rounded-[7px]"></div>
                                 <div className="w-[100%] h-[70%] flex flex-col justify-end items-end shadow-[0.18vw_0.25vw_0.2vw_0_rgba(0,0,0,0.2)] rounded-[7px]">
                                     <div className="absolute w-[100%] h-[20%] bottom-[15%] px-[5%] flex flex-col justify-between items-start max-[1024px]:h-[25%] max-[1024px]:gap-y-[4%]">
-                                        <p className="text-[3vw] font-[Montserrat] font-bold text-[#01669f] sm:text-[2.6vw] md:text-[2vw] xl:text-[1.2vw]">{course.Department}</p>
-                                        <p className="text-[2.4vw] font-[Montserrat] font-normal text-justify sm:text-[2.2vw] md:text-[1.5vw] xl:text-[1vw] text-black">{course.summary}</p>
+                                        <p className="text-[4.2vw] font-[Montserrat] font-bold text-[#01669f] sm:text-[2.6vw] md:text-[2vw] xl:text-[1.2vw]">{course.Department}</p>
+                                        <p className="text-[3.8vw] font-[Montserrat] font-normal text-justify sm:text-[2.2vw] md:text-[1.5vw] xl:text-[1vw] text-black">{course.summary}</p>
                                     </div>
                                     <div className="w-[100%] h-[11%] mb-[2%] flex flex-row justify-between items-center px-[5%]">
-                                        <p className="text-[2vw] sm:text-[1.8vw] md:text-[1.2vw] xl:text-[0.8vw] font-[Montserrat] font-normal text-black">Date Posted: {course.date}</p>
-                                        <button onClick={()=> readMore(course.Department)} className="text-[1.8vw] bg-[#502369] text-white w-[30%] h-[100%] mb-[4%] rounded-[4px] font-[Montserrat] font-semibold sm:text-[2vw] md:text-[1.4vw] xl:text-[0.9vw]">Read more</button>
+                                        <p className="text-[3vw] sm:text-[1.8vw] md:text-[1.2vw] xl:text-[0.8vw] font-[Montserrat] font-normal text-black">Date Posted: {course.date}</p>
+                                        <button onClick={()=> readMore(course.Department)} className="text-[3vw] bg-[#502369] text-white w-[30%] h-[100%] mb-[4%] rounded-[4px] font-[Montserrat] font-semibold sm:text-[2vw] md:text-[1.4vw] xl:text-[0.9vw]">Read more</button>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ The department also shares a library/research laboratory which accommodates both
                 <p className="font-[Montserrat] font-semibold text-[6vw] sm:text-[3vw] md:text-[2.4vw] xl:text-[1.8vw] text-[#502369]">{dept && dept.Department}</p>
                 <div className="flex flex-col w-[100%] gap-y-[2.5vw] max-[640px]:gap-y-[1.2%]">
                     <div className="flex w-[100%] justify-between h-[20%] max-[640px]:h-[40%] max-[640px]:flex-col gap-y-[8vw]">
-                        <div style={{ background: `url(${process.env.PUBLIC_URL + 'images/imageRep.jpg'})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top-center' }} className="w-[40%] aspect-[1/0.7] rounded-[7px] max-[640px]:h-[60%] max-[640px]:w-[100%]"></div>
+                        <div style={{ background: `url(${process.env.PUBLIC_URL + '/images/imageRep.jpg'})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top-center' }} className="w-[40%] aspect-[1/0.7] rounded-[7px] max-[640px]:h-[60%] max-[640px]:w-[100%]"></div>
                         <div className="w-[60%] h-[90%] px-[5%] max-[640px]:px-[0%] max-[640px]:w-[100%] max-[640px]:h-fit">
                             <p className="text-[2.87vw] font-[Montserrat] font-normal text-justify text-black sm:text-[2vw] md:text-[1.7vw] xl:text-[1.2vw]">
                                 The Department of Information Technology is a forward-looking department offering a high-quality learning in a welcoming and friendly environment. Information Technology is a fast changing and advancing field and with our high standard reputation for innovative education, we offer courses that reflect this high level of changes and advancement. The department offers consultancy services to both government and private establishments.

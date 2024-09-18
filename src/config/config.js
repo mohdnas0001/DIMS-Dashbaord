@@ -68,13 +68,13 @@ export const studentTabs = [
       name: 'Student', 
       icon: '/images/navbar/faculty.svg', 
       activeIcon: '/images/navbar/active-faculty.svg', 
-      path: '/student/student' 
+      path: '/admin/student' 
   },
   { 
     name: 'Lecturer', 
     icon: '/images/navbar/faculty.svg', 
     activeIcon: '/images/navbar/active-faculty.svg', 
-    path: '/student/lecturer' 
+    path: '/admin/lecturer' 
   },
     { 
       name: 'Result', 

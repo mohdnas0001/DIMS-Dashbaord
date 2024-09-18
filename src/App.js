@@ -9,6 +9,12 @@ import FacultyPage from './pages/Faculty';
 import EventNewsPage from './pages/Event-News';
 import ResourcesPage from './pages/Resources';
 import AdminHome from './pages/AdminHome';
+import AdminCourses from 'pages/adminCourses';
+import AdminResource from 'pages/adminResources';
+import AdminLecturer from 'pages/adminLecturer';
+import AdminStudent from 'pages/adminStudent';
+import AdminFaculty from 'pages/adminFaculty';
+import AdminEventNews from 'pages/adminEventsNews';
 import ManageUsers from './pages/AdminUsers';
 
 
@@ -55,6 +61,12 @@ const App = () => {
               {role === 'admin' && (
                 <>
                   <Route path="/admin/home" element={<AdminHome />} />
+                  <Route path="/admin/course" element={<AdminCourses />} />
+                  <Route path="/admin/resources" element={<AdminResource />} />
+                  <Route path="/admin/lecturer" element={<AdminLecturer />} />
+                  <Route path="/admin/student" element={<AdminStudent />} />
+                  <Route path="/admin/events-news" element={<AdminEventNews />} />
+                  <Route path="/admin/faculty" element={<AdminFaculty />} />
                   <Route path="/admin/users" element={<ManageUsers />} />
                 </>
               )}
