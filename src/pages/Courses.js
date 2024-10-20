@@ -2,32 +2,12 @@
 import React from 'react';
 import Card from 'components/common/card';
 import CourseTable from 'components/common/course-table';
+import { courses } from 'config/config';
 
 
 const Course = () =>
 {
-  const courses = [
-    {
-      lecturer: 'Dr. John Doe',
-      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
-      status: 'Active', // Can also be 'Inactive'
-      title: 'Computer Science 101',
-      unit: '3',
-      dayDate: 'Monday, 8:00 PM',
-      code: 'CS101',
-      venue: 'Room 5A',
-    },
-    {
-      lecturer: 'Prof. Jane Smith', 
-      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
-      status: 'Inactive',
-      title: 'Mathematics 203',
-      unit: '4',
-      dayDate: 'Wednesday, 10:00 AM',
-      code: 'MTH203',
-      venue: 'Room 3B',
-    },
-  ];
+  
   
   const cardDetails = [
     { title: 'Total number of courses', number: '40', color: '#0D659F' },

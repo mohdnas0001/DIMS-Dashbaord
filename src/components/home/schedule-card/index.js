@@ -80,10 +80,7 @@ const ScheduleSection = () => {
         courseCount={courses.length}
         courses={courses}
       />
-      {/* Placeholder for the second card */}
-      <div className="p-6 bg-white rounded-lg shadow-lg">
-        {/* Second card content */}
-      </div>
+      
     </div>
   );
 };

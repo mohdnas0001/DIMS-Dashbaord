@@ -195,3 +195,297 @@ export const studentTabs = [
     }
   ];
   
+
+
+  export const studentData = {
+  'Level 100': [
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Alice Johnson',
+      metricNumber: 'M100001',
+      phoneNumber: '123-456-7890',
+      gender: 'Female',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Bob Smith',
+      metricNumber: 'M100002',
+      phoneNumber: '123-456-7891',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Charlie Davis',
+      metricNumber: 'M100003',
+      phoneNumber: '123-456-7892',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Daisy Hill',
+      metricNumber: 'M100004',
+      phoneNumber: '123-456-7893',
+      gender: 'Female',
+    },
+  ],
+  'Level 200': [
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Evelyn Carter',
+      metricNumber: 'M200001',
+      phoneNumber: '123-456-7894',
+      gender: 'Female',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Franklin White',
+      metricNumber: 'M200002',
+      phoneNumber: '123-456-7895',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Grace Lee',
+      metricNumber: 'M200003',
+      phoneNumber: '123-456-7896',
+      gender: 'Female',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Henry Brown',
+      metricNumber: 'M200004',
+      phoneNumber: '123-456-7897',
+      gender: 'Male',
+    },
+  ],
+  'Level 300': [
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Isabella Martin',
+      metricNumber: 'M300001',
+      phoneNumber: '123-456-7898',
+      gender: 'Female',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Jack Wilson',
+      metricNumber: 'M300002',
+      phoneNumber: '123-456-7899',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Liam Taylor',
+      metricNumber: 'M300003',
+      phoneNumber: '123-456-7800',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Mia Thompson',
+      metricNumber: 'M300004',
+      phoneNumber: '123-456-7801',
+      gender: 'Female',
+    },
+  ],
+  'Level 400': [
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Noah Garcia',
+      metricNumber: 'M400001',
+      phoneNumber: '123-456-7802',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Olivia Martinez',
+      metricNumber: 'M400002',
+      phoneNumber: '123-456-7803',
+      gender: 'Female',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Paul Rodriguez',
+      metricNumber: 'M400003',
+      phoneNumber: '123-456-7804',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Quinn Lee',
+      metricNumber: 'M400004',
+      phoneNumber: '123-456-7805',
+      gender: 'Female',
+    },
+    ],
+    'Level 500': [
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Noah Garcia',
+      metricNumber: 'M400001',
+      phoneNumber: '123-456-7802',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Olivia Martinez',
+      metricNumber: 'M400002',
+      phoneNumber: '123-456-7803',
+      gender: 'Female',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Paul Rodriguez',
+      metricNumber: 'M400003',
+      phoneNumber: '123-456-7804',
+      gender: 'Male',
+    },
+    {
+      profilePicture: "https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png",
+      student: 'Quinn Lee',
+      metricNumber: 'M400004',
+      phoneNumber: '123-456-7805',
+      gender: 'Female',
+    },
+  ],
+  };
+
+
+  export const courses = [
+    {
+      lecturer: 'Dr. John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Active', // Can also be 'Inactive'
+      title: 'Computer Science 101',
+      unit: '3',
+      dayDate: 'Monday, 8:00 PM',
+      code: 'CS101',
+      venue: 'Room 5A',
+    },
+    {
+      lecturer: 'Prof. Jane Smith', 
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Inactive',
+      title: 'Mathematics 203',
+      unit: '4',
+      dayDate: 'Wednesday, 10:00 AM',
+      code: 'MTH203',
+      venue: 'Room 3B',
+    },
+  ];
+
+
+
+export const lecturerCourses = {
+  'Level 100': [
+      {
+      lecturer: 'Dr. John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Active', // Can also be 'Inactive'
+      title: 'Computer Science 101',
+      unit: '3',
+      dayDate: 'Monday, 8:00 PM',
+      code: 'CS101',
+      venue: 'Room 5A',
+    },
+    {
+      lecturer: 'Prof. Jane Smith', 
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Inactive',
+      title: 'Mathematics 203',
+      unit: '4',
+      dayDate: 'Wednesday, 10:00 AM',
+      code: 'MTH203',
+      venue: 'Room 3B',
+    },
+  ],
+  'Level 200': [
+      {
+      lecturer: 'Dr. John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Active', // Can also be 'Inactive'
+      title: 'Computer Science 101',
+      unit: '3',
+      dayDate: 'Monday, 8:00 PM',
+      code: 'CS101',
+      venue: 'Room 5A',
+    },
+    {
+      lecturer: 'Prof. Jane Smith', 
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Inactive',
+      title: 'Mathematics 203',
+      unit: '4',
+      dayDate: 'Wednesday, 10:00 AM',
+      code: 'MTH203',
+      venue: 'Room 3B',
+    },
+  ],
+  'Level 300': [
+      {
+      lecturer: 'Dr. John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Active', // Can also be 'Inactive'
+      title: 'Computer Science 101',
+      unit: '3',
+      dayDate: 'Monday, 8:00 PM',
+      code: 'CS101',
+      venue: 'Room 5A',
+    },
+    {
+      lecturer: 'Prof. Jane Smith', 
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Inactive',
+      title: 'Mathematics 203',
+      unit: '4',
+      dayDate: 'Wednesday, 10:00 AM',
+      code: 'MTH203',
+      venue: 'Room 3B',
+    },
+  ],
+  'Level 400': [
+      {
+      lecturer: 'Dr. John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Active', // Can also be 'Inactive'
+      title: 'Computer Science 101',
+      unit: '3',
+      dayDate: 'Monday, 8:00 PM',
+      code: 'CS101',
+      venue: 'Room 5A',
+    },
+    {
+      lecturer: 'Prof. Jane Smith', 
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Inactive',
+      title: 'Mathematics 203',
+      unit: '4',
+      dayDate: 'Wednesday, 10:00 AM',
+      code: 'MTH203',
+      venue: 'Room 3B',
+    },
+  ],
+  'Level 500': [
+      {
+      lecturer: 'Dr. John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Active', // Can also be 'Inactive'
+      title: 'Computer Science 101',
+      unit: '3',
+      dayDate: 'Monday, 8:00 PM',
+      code: 'CS101',
+      venue: 'Room 5A',
+    },
+    {
+      lecturer: 'Prof. Jane Smith', 
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      status: 'Inactive',
+      title: 'Mathematics 203',
+      unit: '4',
+      dayDate: 'Wednesday, 10:00 AM',
+      code: 'MTH203',
+      venue: 'Room 3B',
+    },
+    ]
+  
+  }

@@ -10,11 +10,15 @@ import EventNewsPage from './pages/Event-News';
 import ResourcesPage from './pages/Resources';
 import AdminHome from './pages/AdminHome';
 import ManageUsers from './pages/AdminUsers';
+import LecturerHome from 'pages/LecturerHome';
+import LecturerCourse from 'pages/LecturerCourses';
+import LecturerResourcesPage from 'pages/LecturerResources';
+import LecturerStudent from 'pages/LecturerStudents';
 
 
 const App = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-  const [role, setRole] = useState('admin'); // Example role, could be dynamically fetched
+  const [role, setRole] = useState('lecturer'); // Example role, could be dynamically fetched
 
   const toggleSidebar = () => {
     setIsSidebarVisible(!isSidebarVisible);
@@ -62,9 +66,13 @@ const App = () => {
               {/* Routes for faculty */}
               {role === 'lecturer' && (
                 <>
-                  <Route path="/lecturer/home" element={<Course />} />
-                  <Route path="/lecturer/courses" element={<ResourcesPage />} />
-                  <Route path="/lecturer/performance" element={<EventNewsPage />} />
+                  <Route path="/lecturer/home" element={<LecturerHome />} />
+                  <Route path="/lecturer/course" element={<LecturerCourse />} />
+                   <Route path="/lecturer/resources" element={<LecturerResourcesPage />} />
+                    <Route path="/lecturer/student" element={<LecturerStudent />} />
+                  <Route path="/lecturer/result" element={<Result />} />
+                  <Route path="/lecturer/faculty" element={<FacultyPage />} />
+                  <Route path="/lecturer/events-news" element={<EventNewsPage />} />
                 </>
               )}
             </Routes>
