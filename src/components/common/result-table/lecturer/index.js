@@ -1,12 +1,12 @@
 import React from 'react';
 
-const LecturerStudentTable = ({ courses }) => {
+const LecturerResultTable = ({ courses , level, onEdit }) => {
   return (
     <div className="p-6 my-8 bg-white border rounded-lg">
       <div className="flex items-center gap-4 my-4">
-        <h1 className='text-lg font-medium text-black'>400 Level Second Semester Courses</h1>
+        <h1 className='text-lg font-medium text-black'>All </h1>
         <span className="inline-flex items-center px-3 py-1 text-sm font-medium text-[#6941C6] bg-[#F9F5FF] rounded-full">
-          {courses.length} courses
+           {courses.length} courses
         </span>
       </div>
       
@@ -15,8 +15,8 @@ const LecturerStudentTable = ({ courses }) => {
           <tr className="text-sm text-left text-gray-600 bg-gray-100">
             <th className="p-2 border-b">Student Info</th>
             <th className="p-2 border-b">Matric Number</th>
-            <th className="p-2 border-b">Phone Number</th>
-            <th className="p-2 border-b">Gender</th>
+            <th className="p-2 border-b">Cgpa</th>
+            <th className="p-2 border-b">Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -30,13 +30,19 @@ const LecturerStudentTable = ({ courses }) => {
                 />
                 <span>{course.student}</span>
               </td>
-              <td className="p-2 border-b">{course.metricNumber}</td>
-              <td className="p-2 border-b">{course.phoneNumber}</td>
               <td className="p-2 border-b">
-                <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-600`}>
-                  <span className={`inline-block w-2 h-2 mr-1 rounded-full bg-gray-500`} />
-                  {course.gender} {/* Ensure the property name matches your data structure */}
+                <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold bg-gray-200`}>
+                  {course.matricNumber}
                 </span>
+              </td>
+              <td className="p-2 border-b">{course.cgpa}</td>
+              <td className="p-2 border-b">
+                <button 
+                  className="px-3 py-1 text-white bg-blue-500 rounded hover:bg-blue-600"
+                  onClick={() => onEdit(course)}
+                >
+                  Edit
+                </button>
               </td>
             </tr>
           ))}
@@ -46,4 +52,4 @@ const LecturerStudentTable = ({ courses }) => {
   );
 };
 
-export default LecturerStudentTable;
+export default LecturerResultTable;

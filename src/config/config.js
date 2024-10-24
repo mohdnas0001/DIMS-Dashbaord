@@ -489,3 +489,80 @@ export const lecturerCourses = {
     ]
   
   }
+
+
+
+
+  export const lecturerResults = {
+  'Level 100': [
+      {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+    {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+  ],
+  'Level 200': [
+     {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+   {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+  ],
+  'Level 300': [
+      {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+    {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+  ],
+  'Level 400': [
+      {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+    {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+  ],
+  'Level 500': [
+      {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+    {
+      student: 'John Doe',
+      profilePicture: 'https://api.startup.gov.ng/api/v1/files/4474675d-e00e-4526-9407-a3d5485fe638.png', // URL for profile picture
+      matricNumber: 'IFT/00/0000', 
+      cgpa : '4.89'      
+    },
+    ]
+  
+  }

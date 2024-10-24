@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { lecturerCourses, studentData } from 'config/config';
-import LecturerStudentTable from 'components/common/course-table/lecturer-students-table';
-import LecturerCard from 'components/common/card/lecturre-course-card';
+import { lecturerCourses } from 'config/config';
+import LecturerCard from 'components/common/card/lecturer-course-card';
 import Header from 'components/common/header';
-import CourseTable from 'components/common/course-table';
 import CourseFilter from 'components/common/course-filter';
 import LecturerFullCourseTable from 'components/common/course-table/lecturer';
 

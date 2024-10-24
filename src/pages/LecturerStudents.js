@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { studentData } from 'config/config';
 import LecturerStudentTable from 'components/common/course-table/lecturer-students-table';
-import LecturerCard from 'components/common/card/lecturre-course-card';
+import LecturerCard from 'components/common/card/lecturer-course-card';
 
 const LecturerStudent = () => {
   const [selectedLevel, setSelectedLevel] = useState(null); // Tracks the clicked level
